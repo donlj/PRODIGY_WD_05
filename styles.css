@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.34264412.1713225600&semt=ais') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.weather-info h2 {
+    margin: 20px 0 10px;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
